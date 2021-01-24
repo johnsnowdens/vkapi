@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="8dp"
+    android:background="@drawable/backgr"
+    android:layout_margin="10dp"
+    >
+    <TextView
+        android:id="@+id/Nameid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SoneName"
+        android:textColor="#ffff"/>
+    <TextView
+       android:layout_toRightOf="@+id/Nameid"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SomeId"
+        android:textColor="#ffff"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nameid"
+        android:layout_marginTop="4dp"
+        android:text="0000000"
+        android:textColor="#ffff"/>
+
+</RelativeLayout>
